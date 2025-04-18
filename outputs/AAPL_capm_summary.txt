@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   AAPL   R-squared:                       0.596
+Model:                            OLS   Adj. R-squared:                  0.596
+Method:                 Least Squares   F-statistic:                     2592.
+Date:                Fri, 18 Apr 2025   Prob (F-statistic):               0.00
+Time:                        14:08:29   Log-Likelihood:                 5250.4
+No. Observations:                1759   AIC:                        -1.050e+04
+Df Residuals:                    1757   BIC:                        -1.049e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0006      0.000      1.949      0.051    -3.5e-06       0.001
+Mkt-RF         1.1661      0.023     50.913      0.000       1.121       1.211
+==============================================================================
+Omnibus:                      280.540   Durbin-Watson:                   1.882
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2388.019
+Skew:                           0.479   Prob(JB):                         0.00
+Kurtosis:                       8.627   Cond. No.                         78.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

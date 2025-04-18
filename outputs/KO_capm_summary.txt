@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     KO   R-squared:                       0.319
+Model:                            OLS   Adj. R-squared:                  0.319
+Method:                 Least Squares   F-statistic:                     824.4
+Date:                Fri, 18 Apr 2025   Prob (F-statistic):          5.51e-149
+Time:                        14:08:29   Log-Likelihood:                 5576.6
+No. Observations:                1759   AIC:                        -1.115e+04
+Df Residuals:                    1757   BIC:                        -1.114e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.272e-05      0.000      0.094      0.925      -0.000       0.000
+Mkt-RF         0.5463      0.019     28.713      0.000       0.509       0.584
+==============================================================================
+Omnibus:                      324.239   Durbin-Watson:                   1.916
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3892.369
+Skew:                          -0.489   Prob(JB):                         0.00
+Kurtosis:                      10.222   Cond. No.                         78.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

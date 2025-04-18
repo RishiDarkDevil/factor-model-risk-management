@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   AMZN   R-squared:                       0.450
+Model:                            OLS   Adj. R-squared:                  0.450
+Method:                 Least Squares   F-statistic:                     1440.
+Date:                Fri, 18 Apr 2025   Prob (F-statistic):          1.05e-230
+Time:                        14:08:29   Log-Likelihood:                 4770.3
+No. Observations:                1759   AIC:                            -9537.
+Df Residuals:                    1757   BIC:                            -9526.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0003      0.000      0.882      0.378      -0.000       0.001
+Mkt-RF         1.1420      0.030     37.953      0.000       1.083       1.201
+==============================================================================
+Omnibus:                      344.007   Durbin-Watson:                   2.002
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4452.323
+Skew:                           0.523   Prob(JB):                         0.00
+Kurtosis:                      10.724   Cond. No.                         78.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
